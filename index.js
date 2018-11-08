@@ -1,1 +1,3 @@
-console.log("Hello World from Javascript in another file!");
+console.log(typeof document);
+console.log(document);
+document.getElementById('example').innerHTML = 'Javascript Rules';
