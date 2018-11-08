@@ -48,3 +48,14 @@ var multiply = function(m1, m2){
 }
 var product = multiply(2, 3);
 console.log(product);
+
+//=======================================================
+
+var dog = {
+	name: 'Buddy',
+	breed: 'Golden Retriever',
+	weight: 20
+};	
+
+console.log(dog);
+
