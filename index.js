@@ -27,6 +27,8 @@ var e = 30;
 //Camel Case notation - capitalize first character of words (except the first one)
 // e.g.: var firstValue = 20;
 
+console.log("===== Functions =====");
+
 function print(){
 	console.log("A working function!");
 }
@@ -50,6 +52,7 @@ var product = multiply(2, 3);
 console.log(product);
 
 //=======================================================
+console.log("===== JavaScript Objects =====");
 
 var dog = {
 	name: 'Buddy',
@@ -75,6 +78,7 @@ dog.bark();
 //Guau!
 
 //======== Arrays and array functions =======
+console.log("===== Arrays and array functions =====");
 
 var points = [25, 16, 7, 9, 31];
 console.log(points);
@@ -137,6 +141,7 @@ console.log(points.length);
 
 
 //===== Booleans ======
+console.log("===== Booleans =====");
 
 var t = true;
 console.log(typeof t);
@@ -176,6 +181,7 @@ console.log(ge);
 
 
 //===== Conditional Statements ====
+console.log("===== Conditional Statements =====");
 
 if (8 > 5) {
 	console.log("8 is greater than 5");
@@ -215,6 +221,7 @@ var oddEven = function(number){
 oddEven(6);
 
 //===== Switch Statement =====
+console.log("===== Switch Statement =====");
 
 var n3 = 3;
 
@@ -233,6 +240,39 @@ switch(n3){
 		break;
 }
 //The number is Three
+
+
+//===== For Loops =====
+console.log("===== For Loops =====");
+
+for (var i=0; i<5; i++){
+	console.log(i);
+} 
+
+var friends = ["Ross", "Rachel", "Chandler", "Monica", "Phoebe", "Joei"];
+for(var i=0; i<friends.length; i++){
+	console.log(friends[i]);
+}
+
+//===== While =====
+console.log("===== While Loop =====");
+
+var index = 0;
+while (index<friends.length){
+	console.log(friends[index]);
+	index++;
+}
+
+console.log("===== Do Loop =====");
+
+index = 0;
+do{
+	console.log(friends[index]);
+	index++;
+}while(index<friends.length);
+
+
+
 
 
 
