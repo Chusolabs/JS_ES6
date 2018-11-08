@@ -74,3 +74,71 @@ console.log(dog["breed"]);
 dog.bark();
 //Guau!
 
+//======== Arrays and array functions =======
+
+var points = [25, 16, 7, 9, 31];
+console.log(points);
+/*
+(5) [25, 16, 7, 9, 31]
+0: 25
+1: 16
+2: 7
+3: 9
+4: 31
+length: 5
+__proto__: Array(0)
+*/
+
+points.push(8);
+console.log(points);
+/*
+(6) [25, 16, 7, 9, 31, 8]
+0: 25
+1: 16
+2: 7
+3: 9
+4: 31
+length: 5
+__proto__: Array(0)
+*/
+
+var last = points.pop(); // this deletes the last element from array
+console.log(last);
+//8
+console.log(points);
+/*
+(5) [25, 16, 7, 9, 31]
+0: 25
+1: 16
+2: 7
+3: 9
+4: 31
+length: 5
+__proto__: Array(0)
+*/
+
+var first = points[0]; //accessing array elements (index starts at 0 for first element)
+console.log(first);
+//25
+console.log(points);
+/*
+(5) [25, 16, 7, 9, 31]
+0: 25
+1: 16
+2: 7
+3: 9
+4: 31
+length: 5
+__proto__: Array(0)
+*/
+
+console.log(points.length);
+//5
+
+
+
+
+
+
+
+
