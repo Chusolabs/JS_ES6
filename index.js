@@ -214,6 +214,52 @@ var oddEven = function(number){
 }
 oddEven(6);
 
+//===== Switch Statement =====
+
+var n3 = 3;
+
+switch(n3){
+	case 1:
+		console.log("The number is One");
+		break;
+	case 2:
+		console.log("The number is Two");
+		break;
+	case 3:
+		console.log("The number is Three");
+		break;
+	default:
+		console.log("The number is " + n3);
+		break;
+}
+//The number is Three
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
