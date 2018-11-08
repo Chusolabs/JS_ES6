@@ -175,6 +175,48 @@ console.log(ge);
 //false
 
 
+//===== Conditional Statements ====
+
+if (8 > 5) {
+	console.log("8 is greater than 5");
+}
+//8 is greater than 5
+
+if (8 > 13) {
+	console.log("8 is greater");
+} else {
+	console.log("8 is not greater than 13");
+}
+
+var x = 10;
+var y = 8;
+var z = 12;
+function check_x(p1, p2){
+	if (p1 > p2) {
+		console.log(p1 +" is greater than " + p2);
+	} else if (p1 == p2){
+		console.log(p1 +" is equal " + p2);
+	} else {
+		console.log(p2 +" is greater than " + p1);
+	}
+}
+
+check_x(y, x);
+check_x(y, y);
+check_x(x, z);
+
+var oddEven = function(number){
+	if (number % 2 == 0){
+		console.log(number +" is even");
+	} else {
+		console.log(number +" is odd");
+	}
+}
+oddEven(6);
+
+
+
+
 
 
 
