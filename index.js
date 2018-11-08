@@ -54,8 +54,23 @@ console.log(product);
 var dog = {
 	name: 'Buddy',
 	breed: 'Golden Retriever',
-	weight: 20
+	weight: 20,
+	bark: function(){
+		console.log("Guau!")
+	}
 };	
-
 console.log(dog);
+/*{name: "Buddy", breed: "Golden Retriever", weight: 20}
+breed: "Golden Retriever"
+name: "Buddy"
+weight: 20
+*/
+console.log(dog.breed);
+//Golden Retriever
+
+console.log(dog["breed"]);
+//Golden Retriever
+
+dog.bark();
+//Guau!
 
