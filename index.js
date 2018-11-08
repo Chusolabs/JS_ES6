@@ -26,3 +26,25 @@ var e = 30;
 
 //Camel Case notation - capitalize first character of words (except the first one)
 // e.g.: var firstValue = 20;
+
+function print(){
+	console.log("A working function!");
+}
+print();
+
+function print2(message){
+	console.log(message);
+}
+print2("An argument");
+
+function print3(p1, p2, p3){
+	console.log(p1 + p2 + p3);
+}
+print3("one,", "two,", "three");
+print3(1,2,3);
+
+var multiply = function(m1, m2){
+	return m1*m2;
+}
+var product = multiply(2, 3);
+console.log(product);
