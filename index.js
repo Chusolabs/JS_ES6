@@ -136,6 +136,43 @@ console.log(points.length);
 //5
 
 
+//===== Booleans ======
+
+var t = true;
+console.log(typeof t);
+//boolean
+console.log(t);
+//true
+
+var f = false
+console.log(typeof f);
+//boolean
+console.log(f);
+//false
+
+var n = 5 == 5;
+console.log(n);
+//true
+
+var m = 5 == 7;
+console.log(m);
+//false
+
+var lt = 5 < 7;
+console.log(lt);
+//true
+
+var gt = 5 > 7;
+console.log(gt);
+//false
+
+var le = 5 <= 7;
+console.log(le);
+//true
+
+var ge = 5 >= 7;
+console.log(ge);
+//false
 
 
 
