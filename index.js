@@ -17,3 +17,12 @@ b = a + 'world'; //b = 'Hello world';
 var c, d;
 c = 1;
 b = a + 5.5; //b= 6.5;
+
+//we can initialize variables in the moment we create them
+var e = 30;
+
+//Snake Case notation - join words in variable names with underscores
+// e.g.: var first_value = 20;
+
+//Camel Case notation - capitalize first character of words (except the first one)
+// e.g.: var firstValue = 20;
