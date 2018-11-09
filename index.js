@@ -50,7 +50,7 @@ var multiply = function(m1, m2){
 }
 var product = multiply(2, 3);
 console.log(product);
-
+ 
 //=======================================================
 console.log("===== JavaScript Objects =====");
 
