@@ -68,6 +68,7 @@ breed: "Golden Retriever"
 name: "Buddy"
 weight: 20
 */
+
 console.log(dog.breed);
 //Golden Retriever
 
